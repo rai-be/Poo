@@ -20,7 +20,7 @@ public class Motor {
         return tipo;
     }
 
-    // Método toString
+    // Metodo toString
     @Override
     public String toString() {
         return "Potência: " + potencia + "Tipo: " + tipo;
