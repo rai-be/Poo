@@ -2,17 +2,17 @@
 public class Motor {
 
     // Atributos
-    private double potencia;
+    private int potencia;
     private String tipo;
 
     // Construtor
-    public Motor(double potencia, String tipo) {
+    public Motor(int potencia, String tipo) {
         this.potencia = potencia;
         this.tipo = tipo;
     }
 
     // Métodos de acesso
-    public double getPotencia() {
+    public int getPotencia() {
         return potencia;
     }
 
@@ -23,10 +23,9 @@ public class Motor {
     // Método toString
     @Override
     public String toString() {
-        return "Motor{" +
-                "potencia=" + potencia +
-                ", tipo='" + tipo + '\'' +
-                '}';
+        return "Potência: " + potencia + "Tipo: " + tipo;
     }
+
 }
+
 
