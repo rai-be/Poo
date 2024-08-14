@@ -8,7 +8,7 @@ public class Moto extends Veiculo{
 
     // Construtor
     public Moto(String tipoDeGuidao, Motor motor) {
-        super("Desconhecida", "Desconhecido", 0); // Ajuste conforme necessário
+        super("Honda", "CBR600RR", 2021); // um ajuste para adicionar as demais caracteristicas
         this.tipoDeGuidao = tipoDeGuidao;
         this.motor = motor;
     }
